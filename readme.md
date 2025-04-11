@@ -93,7 +93,7 @@ hedera-mcp-server/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/hedera-mcp-server.git
+git clone https://github.com/hgraphpunks/hedera-mcp-server.git
 cd hedera-mcp-server
 ```
 

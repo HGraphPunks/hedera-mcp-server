@@ -1,0 +1,9 @@
+{
+    "mcpServers": {
+        "hedera-agent-server": {
+            "name": "Hedera Agent Server",
+            "url": "http://localhost:3001/sse",
+            "headers": {}
+        }
+    }
+}
