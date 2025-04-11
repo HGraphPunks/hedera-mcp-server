@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  mcp-server:
+    build: .
+    image: hedera-mcp-server:latest
+    container_name: hedera-mcp-server
+    environment:
+      - HEDERA_NETWORK=testnet
+      - HEDERA_OPERATOR_ID=${HEDERA_OPERATOR_ID}
+      - HEDERA_OPERATOR_KEY=${HEDERA_OPERATOR_KEY}
+      - REGISTRY_TOPIC_ID=${REGISTRY_TOPIC_ID}
+      - PORT=3000
+      - SSE_PORT=3001
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    # Optionally, mount a volume for persistence (if we decide to store keys or data). Not strictly needed since state is mostly on-chain.
+    volumes:
+      - ./.env:/app/.env  # load environment variables from local .env if needed
