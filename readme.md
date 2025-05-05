@@ -1,4 +1,4 @@
-# Hedera MCP Server
+# Hedera MCP Server (ALPHA - INITIAL FUNCTIONALITY STILL BROKEN)
 
 ## Overview
 
