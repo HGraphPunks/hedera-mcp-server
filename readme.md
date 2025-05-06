@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/hgraphpunks-hedera-mcp-server-badge.png)](https://mseep.ai/app/hgraphpunks-hedera-mcp-server)
+
 # Hedera MCP Server
 
 ## Overview
